@@ -1,0 +1,56 @@
+{
+    "name": "The Tests of Strengths - Copy",
+    "description": "Guide Link through the Tests of Strengths! Each room will get progressively harder so watch out!",
+    "dependencies": {
+        "device": "*",
+        "browser-events": "*",
+        "sprite-fx": "github:kohanmathers/makecodespritefx#v1.3.0",
+        "arcade-sprite-util": "github:jwunderl/arcade-sprite-util#v0.6.0",
+        "controller": "*",
+        "image mapping": "github:bladebaillio/image-mapping#v0.0.1",
+        "arcade-fancy-text": "github:riknoll/arcade-fancy-text#v0.2.2",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.2.1",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts",
+        "custom.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.1.25",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj",
+    "palette": [
+        "#000000",
+        "#FFFFFF",
+        "#FF0000",
+        "#FF80FF",
+        "#FF8000",
+        "#FFFF00",
+        "#008080",
+        "#00FF00",
+        "#0000FF",
+        "#00FFFF",
+        "#8000FF",
+        "#808080",
+        "#400080",
+        "#FFC080",
+        "#804000",
+        "#000000"
+    ]
+}
